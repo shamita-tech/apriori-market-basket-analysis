@@ -1,6 +1,35 @@
+# Python cache files
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Virtual environments and secrets
 .venv/
 venv/
+env/
+ENV/
 .env
+.envrc
+
+# Testing and coverage
 .pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+tempCodeRunnerFile.py
